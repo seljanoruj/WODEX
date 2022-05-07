@@ -1,0 +1,873 @@
+.container-fluid {
+  width: 97% !important;
+}
+
+header {
+  width: 100%;
+  height: 13vh;
+  cursor: pointer;
+}
+
+nav {
+  height: 13vh;
+  font-size: 20px;
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+nav .nav-item {
+  padding: 20px;
+}
+
+nav i {
+  margin-right: 20px;
+}
+
+.firstsection {
+  width: 100%;
+  height: 78vh;
+}
+
+.firstsection .carousel {
+  width: 100%;
+  height: 78vh;
+  background-color: #ffedf3;
+}
+
+.firstsection .carousel .firstslider {
+  background-color: #ffedf3;
+  width: 100%;
+  height: 78vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.firstsection .carousel .firstslider .text1 {
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.firstsection .carousel .firstslider .text1 h1 {
+  font-size: 3rem;
+  font-family: "limerick-regular", sans-serif, "Apple Color     Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 340;
+}
+
+.firstsection .carousel .firstslider .text1 h2 {
+  font-size: 20px;
+  font-weight: 250;
+}
+
+.firstsection .carousel .firstslider .text1 button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 250;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.firstsection .photo {
+  width: 30%;
+  height: 60%;
+}
+
+.firstsection .photo1 {
+  width: 25%;
+  height: 70%;
+}
+
+.logos {
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logos .photo {
+  width: 100%;
+  height: 100%;
+}
+
+.logos .qara {
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.logos .qara:hover {
+  opacity: 1;
+}
+
+.secondsection {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.secondsection .first {
+  width: 60%;
+  height: 80vh;
+}
+
+.secondsection .first .text {
+  width: 100%;
+  height: 15vh;
+}
+
+.secondsection .first .text h1 {
+  font-size: 1.75rem;
+  font-family: "limerick-regular", sans-serif, "Apple Color     Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 350;
+  line-height: 2;
+}
+
+.secondsection .first .text h2 {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.secondsection .first .chairs {
+  width: 100%;
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.secondsection .first .chairs .chair1 {
+  width: 30%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.secondsection .first .chairs .chair1:hover .img {
+  opacity: 1;
+}
+
+.secondsection .first .chairs .chair1:hover .icons {
+  opacity: 1;
+}
+
+.secondsection .first .chairs .chair1 .icons {
+  width: 40px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: 0;
+  bottom: 100px;
+  position: absolute;
+  opacity: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.secondsection .first .chairs .chair1 .icons i {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  padding: 8px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.secondsection .first .chairs .chair1 .icons i:hover {
+  background-color: black;
+  color: white;
+}
+
+.secondsection .first .chairs .chair1 .image {
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+.secondsection .first .chairs .chair1 .img {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.secondsection .first .chairs .chair1 .text1 {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondsection .first .chairs .chair1 .text1 h1 {
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 450;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.secondsection .first .chairs .chair1 .text1 h1:hover {
+  color: orange;
+}
+
+.secondsection .second {
+  width: 40%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.customdesign {
+  margin: 60px 0;
+  cursor: pointer;
+  width: 100%;
+  height: 36vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.customdesign .designimg {
+  width: 78%;
+  height: 65%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customdesign .designimg .designtext {
+  text-align: center;
+  width: 45%;
+  height: 78%;
+  position: absolute;
+}
+
+.customdesign .designimg .designtext h1 {
+  font-size: 20px;
+  font-weight: 360;
+}
+
+.customdesign .designimg .designtext p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.customdesign .designimg .designtext span {
+  font-size: 20px;
+  font-weight: 360;
+}
+
+.bedcloset {
+  cursor: pointer;
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bedcloset .bedimg {
+  width: 1010px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.bedcloset .bedimg .bedtext {
+  position: absolute;
+  width: 40%;
+  height: 78%;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.bedcloset .bedimg .bedtext h1 {
+  font-size: 20px;
+  font-weight: 360;
+}
+
+.bedcloset .bedimg .bedtext p {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.bedcloset .bedimg .bedtext span {
+  font-size: 20px;
+  font-weight: 360;
+}
+
+.goldenoffer {
+  width: 100%;
+  height: 78vh;
+  background-image: url(/img/pinkbg.jpeg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.goldenoffer .goldentext {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.goldenoffer .goldentext h1 {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 350;
+}
+
+.goldenoffer .goldentext h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.goldenoffer .goldentext .button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  color: #000;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.goldenoffer .goldentext .button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+  z-index: -2;
+}
+
+.goldenoffer .goldentext .button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #FDBF70;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: -1;
+}
+
+.goldenoffer .goldentext .button:hover {
+  color: #fff;
+}
+
+.goldenoffer .goldentext .button:hover:before {
+  width: 100%;
+}
+
+.last {
+  width: 100%;
+  height: 100vh;
+}
+
+.last .head {
+  height: 13vh;
+  width: 100%;
+  padding: 78px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last .head p {
+  font-size: 35px;
+}
+
+.last .head h4 {
+  opacity: 0.7;
+  font-size: 17px;
+}
+
+.last .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 78vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.last .boxes .chairs {
+  margin-left: 30px;
+  width: 30%;
+  height: 500px;
+  background-color: white;
+}
+
+.last .boxes .chairs img {
+  cursor: pointer;
+  width: 100%;
+  height: 50%;
+}
+
+.last .boxes .chairs h2 {
+  cursor: pointer;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.last .boxes .chairs h3 {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.last .boxes .chairs h3:hover {
+  color: orange;
+}
+
+.last .boxes .chairs h5 {
+  opacity: 0.7;
+  font-size: 20px;
+  line-height: 2.1;
+}
+
+.last .boxes .chairs .orta {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 25px;
+  border-bottom: 0.1px solid #ccc;
+}
+
+footer {
+  width: 100%;
+  height: 78vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .first {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 50px;
+  border: 0.5px solid #ccc;
+}
+
+footer .first .one {
+  width: 30%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .first .one h1 {
+  font-size: 20px;
+  opacity: 0.5;
+  padding: 20px 0;
+}
+
+footer .first .one h2 {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+footer .first .two {
+  width: 20%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .first .two h1 {
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 12px;
+}
+
+footer .first .two h2 {
+  font-size: 18px;
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 360;
+  padding: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .first .two h2:hover {
+  color: orange;
+}
+
+footer .first .three {
+  width: 20%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .first .three h1 {
+  font-size: 1.25rem;
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  padding: 12px;
+}
+
+footer .first .three h2 {
+  font-size: 18px;
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 360;
+  padding: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .first .three h2:hover {
+  color: orange;
+}
+
+footer .first .four {
+  width: 30%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .first .four h1 {
+  padding: 12px;
+  font-size: 1.25rem;
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+}
+
+footer .first .four h2 {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "limerick-regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  opacity: 0.5;
+  line-height: 2;
+}
+
+footer .first .four .qutular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10px;
+}
+
+footer .first .four input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .first .four input:hover {
+  color: orange;
+}
+
+footer .second {
+  width: 100%;
+  height: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .second .text {
+  width: 33%;
+  height: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .second .text p {
+  font-size: 1.25rem;
+  font-family: "limerick-regular", sans-serif, "Apple Color     Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 350;
+  cursor: pointer;
+  margin: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .second .text p:hover {
+  color: orange;
+}
+
+footer .second .lastext {
+  width: 33%;
+  height: 13vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .second .lastext h1 {
+  font-size: 1.25rem;
+  font-family: "limerick-regular", sans-serif, "Apple Color     Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 350;
+  margin: 0%;
+}
+
+footer .second .icons {
+  width: 33%;
+  height: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding-right: 20px;
+}
+
+footer .second .icons i {
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+footer .second .icons i:hover {
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */
